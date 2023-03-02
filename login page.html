@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <style>
+            *{
+                margin: 0px;
+                padding:0px;
+                outline: 0px;
+
+            }
+            .main{
+                background-image: url("pexels-martin-péchy-2078266.jpg");
+                background-size: cover;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+                width: 100%;
+                height: 100vh;
+            }
+            .cont{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                
+
+                width: 30%;
+                height: 80vh;
+                background: linear-gradient(rgba(8, 34, 5, 0.8),rgba(10, 48, 15, 0.9)),url("green\ bg\ for\ cont\ login.jpg");
+            }
+            .tex{
+                
+                display: flex;
+                flex-direction: column;
+               background: transparent;
+                align-items:center;
+            }
+            input[type="text"]{
+                background: transparent;
+                font-size: 15px;
+                text-decoration: none;
+                text-align: center;
+                color: white;
+                border: 1px solid white;
+                border-radius: 50px;
+                padding: 7px;
+            }
+            input[type="password"]{
+                background: transparent;
+                font-size: 15px;
+                text-decoration: none;
+                text-align: center;
+                color: white;
+                border: 1px solid white;
+                border-radius: 50px;
+                padding: 7px;
+            }
+            input[type="submit"]{
+                background: transparent;
+                font-size: 15px;
+                text-decoration: none;
+                text-align: center;
+                color: yellow;
+                border: 1px solid rgb(255, 255, 255);
+                border-radius: 50px;
+                padding: 7px;
+                width: 210px;
+            }
+            input[type="button"]{
+                background: transparent;
+                font-size: 15px;
+                text-decoration: none;
+                text-align: center;
+                color: yellow;
+                border: 1px solid rgb(255, 255, 255);
+                border-radius: 50px;
+                padding: 7px;
+                width: 210px;
+            }
+            
+            ::placeholder{
+                color: beige;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <div class="cont">
+                
+                
+                <div class="tex">
+                    <div class="heading"><h2 style="color: white; font-size: 25px;">Login</h2></div><br/>
+                    <div><input type="text" placeholder="User ID"></div><br/>
+                    <div><input type="password" placeholder="Password"></div><br/>
+                    <div><input type="submit" value="Login"></div><br/>
+                    <div><input type="button" value="I am New"></div><br/>
+                </div>
+
+            </div>
+        </div>
+    </body>
+</html>
